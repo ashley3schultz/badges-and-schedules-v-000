@@ -20,8 +20,9 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  welcome = "#{batch_badge_creator(attendees)}"
-  greeting = "#{batch_badge_creator(attendees)}"
-  welcome
-  greeting
+  batch_badge_creator(attendees).each {|badge|
+  badge
+  batch_badge_creator(attendees).each {|room|
+  room
 end
+  
